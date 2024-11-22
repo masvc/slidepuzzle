@@ -1,0 +1,32 @@
+/* タイルのスタイル */
+.tile {
+  width: 70px;
+  height: 70px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 36px;
+  background-color: lightblue;
+  box-shadow: rgb(128, 128, 128) 5px 5px;
+  cursor: pointer;
+}
+
+#how-to-play {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+
+#how-to-play h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#how-to-play p {
+  line-height: 1.6;
+}

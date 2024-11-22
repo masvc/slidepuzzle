@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>15puzzle</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body onload="init()">
+    <table id="table"></table>
+
+    <!-- 遊び方の説明部分 -->
+    <div id="how-to-play">
+      <h2>遊び方</h2>
+      <p>ゲームがロードされると、15パズルの盤面が表示されます。</p>
+      <p>
+        タイルは16個の枠のうち15個が番号付きのタイル、1つが空白のスペースです。
+      </p>
+      <p>
+        プレイヤーは空白のタイルの周りにあるタイルをクリックすることで、そのタイルを空白と入れ替えることができます。
+      </p>
+      <p>目的は、タイルを数字の順番通りに並べることです（1から15の順番）。</p>
+      <p>
+        左上に空白（タイル番号0）があり、その隣に1、次に2、3と続き、最下段には12、13、14、15の順で並びます。
+      </p>
+      <p>
+        ゲームが完成した時に、「Game Clear!!」というアラートが表示されます。
+      </p>
+    </div>
+  </body>
+</html>
